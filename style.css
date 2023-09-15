@@ -7,7 +7,7 @@
     height: 100%;
     overflow: visible;
     background: #FCFCFF url('videos/loader.gif') no-repeat center center;
-    background-size: 50%;
+    background-size: 30%;
 }
 
 body {
