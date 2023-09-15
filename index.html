@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <div class="main-box">
         <input type="checkbox" name="" id="chk" aria-hdden="true">
         <div class="signup">
@@ -33,6 +34,19 @@
             </form>
         </div>
     </div>
+    <script>
+
+        jQuery(document).ready(function ($) {
+
+            // site preloader -- also uncomment the div in the header and the css style           for #preloader
+            $(window).load(function () {
+                $('#preloader').fadeOut('slow', function () { $(this).remove(); });
+            });
+
+        });
+
+    </script>
+
 </body>
 
 </html>
